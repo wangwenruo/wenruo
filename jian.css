@@ -1,5 +1,8 @@
 /*css.rest*/
-*{margin:0;padding:0;box-sizing:bolder-box;
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 ul,ol{
 	list-style:none;
@@ -46,7 +49,6 @@ section.works img{
 
 section.works imageWrapper{
 	padding:10px 10px 3px;
-	background:white;
 	text-align:right
 }
 section.works > ul{
