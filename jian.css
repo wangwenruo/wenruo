@@ -1,15 +1,12 @@
 /*css.rest*/
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
+*{margin:0;padding:0;box-sizing:border-box;
 }
 ul,ol{
 	list-style:none;
 }
 
 img{
-	max-width:100%;
+	max-width:100%
 }
 a{
 	text-decoration:none;
@@ -23,7 +20,7 @@ section.summary{
 	justify-content:center;
 	align-items:center;
 	flex-direction:column;
-	background:transparent url()
+	background:transparent url("http://uploadfile.huiyi8.com/2014/0515/20140515024920293.jpg");
 }
 
 section.summary img.avatar{
@@ -49,6 +46,7 @@ section.works img{
 
 section.works imageWrapper{
 	padding:10px 10px 3px;
+	background:white;
 	text-align:right
 }
 section.works > ul{
@@ -65,11 +63,33 @@ section.works > ul h3{
 }
 
 section.works > h2, section.contacts > h2{
-    font-size: 32px;
+    font-size: 25px;
     margin-bottom: 1em;
 }
 
-
+section.tecnologe{
+	
+	height:100vh;/*100vh=viewport height*/
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	background:transparent url(http://uploadfile.huiyi8.com/2014/0515/20140515024920293.jpg)
+}
+section.tecnologe li{
+	padding:10px 10px ;
+    font-weight:800;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	
+}
+section.tecnologe  p{
+   font-size:15px;
+   margin-left:12px
+	
+}
 section.contacts {
     height: 100vh;
     display: flex;
